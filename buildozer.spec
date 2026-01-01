@@ -31,9 +31,12 @@ android.ndk = 25b
 # Package format
 android.archs = arm64-v8a,armeabi-v7a
 
+# App version (required for build)
+version = 1.0.0
+
 # Keep .py files compiled only
 android.add_src = .
-android.p4a_whitelist =
+android.whitelist =
 
 # Enable logcat debugging output
 log_level = 2
